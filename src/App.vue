@@ -1,28 +1,23 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="container">
+    <div class="row justify-content-center">
+      <h2 class="animated fadeIn">Covid19 Data Display</h2>
+    </div>
+    <hr />
+    <div class="row">
+      <covid-data></covid-data>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import CovidData from "./components/CovidData.vue";
 
 export default {
-  name: "App",
   components: {
-    HelloWorld
+    CovidData
   }
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
