@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <div class="row justify-content-center">
-      <h2 class="animated fadeIn">Covid19 Data Display</h2>
+      <h2 class="animated fadeIn">
+        Covid19 Data Display
+      </h2>
     </div>
     <hr />
     <div class="row">
